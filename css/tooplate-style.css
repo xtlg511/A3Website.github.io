@@ -1,0 +1,143 @@
+/* Importing Fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
+
+body {
+  background: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+/*---------------------------------------
+   TYPOGRAPHY              
+-----------------------------------------*/
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 600;
+}
+
+h1,h2,h3,h4 {
+  letter-spacing: -1px;
+}
+
+h1 {
+  color: #4a4a4a;
+  font-size: 5em;
+}
+
+h2 {
+  color: #cc3300;
+  font-size: 3em;
+  padding-bottom: 10px;
+}
+
+h3, h4 {
+  color: #4a4a4a;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+p {
+  color: #4a4a4a;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/*---------------------------------------
+   GENERAL STYLES              
+-----------------------------------------*/
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #cc3300;
+  transition: 0.5s;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #ff9417;
+}
+
+.section-btn {
+  background: #ff9417;
+  color: #ffffff;
+  padding: 14px 20px;
+  border-radius: 3px;
+  transition: transform 0.1s ease-in;
+}
+
+.section-btn:hover {
+  background-color: #cc7a14;
+}
+
+/*---------------------------------------
+   FORM STYLING
+-----------------------------------------*/
+
+#referral-form input, #referral-form textarea {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+#referral-form button {
+  background-color: #ff9417;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#referral-form button:hover {
+  background-color: #cc7a14;
+}
+
+/*---------------------------------------
+   SECTION BACKGROUNDS
+-----------------------------------------*/
+
+#about, #news, #appointment {
+  background-color: #f0f0f0;
+}
+
+#team {
+  padding: 100px 0;
+  background-color: #f0f0f0;
+}
+
+.team-thumb {
+  background: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.team-info h3 {
+  color: #4a4a4a;
+  font-size: 1.5em;
+}
+
+/*---------------------------------------
+   FOOTER
+-----------------------------------------*/
+
+footer {
+  padding: 100px 0;
+  background: #ff9417;
+}
+
+footer h4, footer p, footer a {
+  color: #ffffff;
+}
+
+.footer-link a:hover {
+  color: #ffffff;
+}
+
+.angle-up-btn i:hover {
+  color: #ff9417;
+}
